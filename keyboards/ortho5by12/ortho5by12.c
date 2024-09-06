@@ -15,16 +15,16 @@
  */
 #include "quantum.h"
 
-void matrix_init_kb(void) {
-    setPinOutput(C4);
-    setPinOutput(C5);
-}
+// void matrix_init_kb(void) {
+//     setPinOutput(C4);
+//     setPinOutput(C5);
+// }
 
-bool led_update_kb(led_t led_state) {
-    bool res = led_update_user(led_state);
-    if(res) {
-        writePin(C4, led_state.num_lock);
-        writePin(C5, led_state.caps_lock);
-    }
-    return res;
-}
+// bool led_update_kb(led_t led_state) {
+//     bool res = led_update_user(led_state);
+//     if(res) {
+//         writePin(C4, led_state.num_lock);
+//         writePin(C5, led_state.caps_lock);
+//     }
+//     return res;
+// }
