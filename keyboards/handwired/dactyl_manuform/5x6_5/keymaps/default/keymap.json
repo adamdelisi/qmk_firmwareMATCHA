@@ -59,8 +59,6 @@
             "KC_SLSH",
             "SC_RSPC",
 
-            "KC_LGUI",
-            "KC_LALT",
             "TT(2)",
             "LT(6,KC_SPC)",
             "LT(4,KC_DEL)",
@@ -130,8 +128,6 @@
             "KC_SLSH",
             "SC_RSPC",
 
-            "KC_LGUI",
-            "KC_LALT",
             "TT(2)",
             "LT(6,KC_SPC)",
             "LT(4,KC_DEL)",
